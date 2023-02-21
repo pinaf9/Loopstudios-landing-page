@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dosis:wght@700&family=Josefin+Sans:wght@300;400&display=swap');
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.hero{
+    display: inline-block;
+    /* was abolute changed to relative */
+    position: relative;
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    color: whitesmoke;
+}
+
+.hero-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%; 
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.navbar{
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    left: 20px;
+    top: 6px;
+}
+
+.txt-decor:hover a {
+    /* border-bottom: 1px solid red; */
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    width: 10%;
+    /* position: absolute; */
+    /* top:10%; */
+    /* bottom: 0; */
+    /* display: block; */
+    /* width: 50%; */
+    /* margin-top: 5px; */
+}
+
+.hero-head p{
+    position: relative;
+    display: inline;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    right: 58px;
+    bottom: 14px;
+    font-weight: 700px;
+}
+
+.hero-immerse p{
+    margin: 0px;
+}
+
+.hero-immerse{
+    display: inline-block;
+    border: 2px solid whitesmoke;
+    /* margin-top: 10%; */
+    /* margin-left: 10%; */
+    width: 40%;
+    padding: 30px 50px 20px 30px;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 103px;
+    bottom: 40px;
+    left: 160px;
+    
+}
+
