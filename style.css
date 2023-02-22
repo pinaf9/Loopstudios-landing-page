@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     box-sizing: border-box;
-    
+    background-color: whitesmoke;
 }
 
 .hero{
@@ -65,7 +65,11 @@ nav a{
     font-weight: 700px;
 }
 
-.hero-immerse p{
+/* .hero-immerse p{
+    margin: 0px;
+} */
+
+p{
     margin: 0px;
 }
 
@@ -83,6 +87,67 @@ nav a{
     top: 103px;
     bottom: 40px;
     left: 160px;
+}
+
+.mid-section{
+    position: relative;
+}
+
+
+.mid-text{
+    position: absolute;
+    display: inline-block;
+    background-color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    width: 38%;
+    /* top: 4px; */
+    bottom: -40px;
+    left: 570px;
+    padding-top: 70px;
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+
+.mid-title{
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    /* width: 40%; */
+    font-weight: 300;
+}
+
+
+.mid-body{
+    margin-top: 30px;
+    font-size: 15px;
+    width: 81%;
+    color: grey;
+    line-height: 25px
+}
+
+.mid-section{
+    display: block;
+    margin-top: 155px;
+    margin-left: 150px;
+}
+
+.creations{
     
 }
 
+.creations-head{
+    display: flex;
+    margin-top: 155px;
+    bottom: 40px;
+    /* justify-content: space-between; */
+    margin-left: 140px;
+    gap: 800px;
+
+}
+
+.create-btn{
+    border-radius: 1px solid black;
+    padding: 3px;
+    background-color: whitesmoke;
+}
