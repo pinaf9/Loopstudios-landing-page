@@ -121,7 +121,7 @@ p{
 .mid-body{
     margin-top: 30px;
     font-size: 15px;
-    width: 81%;
+    width: 89%;
     color: grey;
     line-height: 25px
 }
@@ -133,7 +133,7 @@ p{
 }
 
 .creations{
-    
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .creations-head{
@@ -142,12 +142,80 @@ p{
     bottom: 40px;
     /* justify-content: space-between; */
     margin-left: 140px;
-    gap: 800px;
+    gap: 620px;
 
 }
 
+
+
 .create-btn{
-    border-radius: 1px solid black;
-    padding: 3px;
+    border-color: black;
+    padding: 6px 19px;
     background-color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.creations-head p{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.gallery{
+    margin-top: 75px;
+    margin-left: 140px;
+}
+
+.gallery-col{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery-pos{
+    position: relative;
+}
+
+.g-title{
+    position: absolute;
+    color: whitesmoke;
+    bottom: 35px;
+    left: 40px;
+    font-size: 33px;
+    width: 60%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+
+footer{
+    /* position: relative; */
+    margin-top: 150px;
+    color: whitesmoke;
+    background-color: black;
+    height: 25vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.foot-top{
+    /* position: relative; */
+    display: flex;
+    gap: 820px;
+    padding-left: 140px;
+    /* justify-content: space-around; */
+    padding-top: 40px;
+    font-size: 27px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.foot-bottom{
+    display: flex;
+    gap: 450px;
+    padding-left: 140px;
+}
+
+.foot-section{
+    padding-top: 15px;
 }
